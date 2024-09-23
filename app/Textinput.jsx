@@ -12,6 +12,8 @@ const Textinput = () => {
         placeholder="Enter your name"
         value={name}
         onChangeText={(anyvalue) => updatename(anyvalue)}
+        //The first anyvalue in (anyvalue) refers to the text that the user types into the input field. It captures the new value.
+        // The second anyvalue is used to pass this captured value as an argument to the updatename function...
         // to clear the data we have to blank the both name and updatename
       />
       <Button title="Clear data" onPress={() => updatename("")} />

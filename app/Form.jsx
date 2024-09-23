@@ -13,7 +13,7 @@ const Form = () => {
   };
   return (
     <>
-      <View className=" h-[360] w-full bg-violet-400">
+      <View className=" h-[355] w-full bg-violet-400">
         <Text
           className="text-3xl font-extrabold underline ml-[140] "
           style={styles.edit}

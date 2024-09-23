@@ -17,7 +17,8 @@ const insert_data = 10;
 // how this value '10' is print without console.log as a warning on screen
 
 // it once display when we rum or reload the whole page.....
-console.warn("20");
+
+// console.warn("20");
 
 // className and style .......
 const Buttonn = () => {
