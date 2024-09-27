@@ -12,7 +12,7 @@ const State = () => {
   }
 
   return (
-    <View className="h-[100] bg-red-800">
+    <View className="h-[98] bg-red-800">
       {/* with usestate */}
       <Text className="font-extrabold text-3xl">{neww}</Text>
       {/* with variable ----- doesn't rerender or not updates once it's assigned */}

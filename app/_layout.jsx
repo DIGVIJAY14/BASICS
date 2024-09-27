@@ -11,6 +11,8 @@ import FlatListt from "./Flatlistt";
 import Mapfunction from "./Mapfunction";
 import Grid from "./Grid";
 import Compinloopflat from "./Compinloopflat";
+import Sectionlist from "./Sectionlist";
+import UseEffecthook from "./UseEffecthook";
 
 // className and style .......
 const _layout = () => {
@@ -45,8 +47,10 @@ const _layout = () => {
         {/* <Grid /> */}
         {/* <View className="bg-zinc-50 h-[20] w-full"></View> */}
         {/* <Compinloopflat /> */}
-        {/* <View className="bg-zinc-50 h-[20] w-full"></View> */}
-        {/* <Compinloopflat /> */}
+        <Sectionlist />
+        {/* error...................... */}
+        <View className="bg-zinc-50 h-[20] w-full"></View>
+        <UseEffecthook />
       </ScrollView>
       {/* ---------------------------------------------------- */}
       {/* see the difference ************************************/}

@@ -13,7 +13,7 @@ const Form = () => {
   };
   return (
     <>
-      <View className=" h-[355] w-full bg-violet-400">
+      <View className=" h-[500] w-full bg-violet-400">
         <Text
           className="text-3xl font-extrabold underline ml-[140] "
           style={styles.edit}
@@ -73,6 +73,7 @@ const Form = () => {
             title="Print details"
             color={"purple"}
             onPress={() => setdisp(true)}
+            q
           />
         </View>
         <Button title="Clear details" color={"#073477"} onPress={empty} />
@@ -83,7 +84,7 @@ const Form = () => {
               <Text style={styles.emptyy} className="font-extrabold">
                 Name : {name} {"\n"}
                 E-mail : {email} {"\n"}
-                Password : {password}
+                Password : {password},
               </Text>
             </View>
           ) : null}
