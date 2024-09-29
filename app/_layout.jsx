@@ -13,6 +13,8 @@ import Grid from "./Grid";
 import Compinloopflat from "./Compinloopflat";
 import Sectionlist from "./Sectionlist";
 import UseEffecthook from "./UseEffecthook";
+import UseEffecthook_2 from "./UseEffecthook_2"; // already imported in UseEffecthook
+import Toggle from "./Toggle";
 
 // className and style .......
 const _layout = () => {
@@ -42,15 +44,15 @@ const _layout = () => {
         <View className="bg-zinc-50 h-[20] w-full"></View>
         <Form />
         <View className="bg-zinc-50 h-[20] w-full"></View>
-        {/* <Mapfunction /> */}
         {/* <View className="bg-zinc-50 h-[20] w-full"></View> */}
         {/* <Grid /> */}
         {/* <View className="bg-zinc-50 h-[20] w-full"></View> */}
-        {/* <Compinloopflat /> */}
-        <Sectionlist />
+        {/* <Sectionlist /> */}
         {/* error...................... */}
-        <View className="bg-zinc-50 h-[20] w-full"></View>
         <UseEffecthook />
+        <View className="bg-zinc-50 h-[20] w-full"></View>
+        <Toggle />
+        <View className="bg-zinc-50 h-[20] w-full"></View>
       </ScrollView>
       {/* ---------------------------------------------------- */}
       {/* see the difference ************************************/}
