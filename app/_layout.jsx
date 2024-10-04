@@ -15,6 +15,8 @@ import Sectionlist from "./Sectionlist";
 import UseEffecthook from "./UseEffecthook";
 import UseEffecthook_2 from "./UseEffecthook_2"; // already imported in UseEffecthook
 import Toggle from "./Toggle";
+import Unmounting from "./Unmounting";
+import Flexbox from "./Flexbox";
 
 // className and style .......
 const _layout = () => {
@@ -53,15 +55,18 @@ const _layout = () => {
         <View className="bg-zinc-50 h-[20] w-full"></View>
         <Toggle />
         <View className="bg-zinc-50 h-[20] w-full"></View>
+        <Unmounting />
+        <View className="bg-zinc-50 h-[20] w-full"></View>
       </ScrollView>
       {/* ---------------------------------------------------- */}
       {/* see the difference ************************************/}
       {/* <FlatListt /> */}
       {/* <View className="h-full w-full">
-          <Mapfunction />
-        </View> */}
+         <Mapfunction />
+         </View> */}
       {/* <Compinloopflat /> */}
     </SafeAreaView>
+    // <Flexbox />
   );
 };
 

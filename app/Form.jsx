@@ -84,7 +84,7 @@ const Form = () => {
               <Text style={styles.emptyy} className="font-extrabold">
                 Name : {name} {"\n"}
                 E-mail : {email} {"\n"}
-                Password : {password},
+                Password : {password}
               </Text>
             </View>
           ) : null}
